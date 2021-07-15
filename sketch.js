@@ -111,12 +111,12 @@ async function getTime(){
 
     var hour = Time.slice(11,13);
     console.log(hour);
-    if (hour>=06 && hour<=17){
+    if (hour>=06 && hour<=15){
         console.log("day")
-       var backgroundImg = loadImage("bg.png");
+        backgroundImg = loadImage("bg.png");
     }
     else{
-       var backgroundImg = loadImage("bg2.jpg");
+        backgroundImg = loadImage("bg2.jpg");
     }
     //console.log(backgroundImg)
 }
